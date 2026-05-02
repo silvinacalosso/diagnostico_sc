@@ -31,7 +31,7 @@ exports.handler = async function(event) {
             },
             body: JSON.stringify({
                 from: 'onboarding@resend.dev',
-                to: 'diegosoto.mdp@gmail.com',
+                to: 'formacionbienestarinteligente@gmail.com',
                 subject: `Nuevo Diagnóstico de ${nombre}`,
                 html: `
                     <div style="font-family: sans-serif; padding: 20px; color: #333;">
